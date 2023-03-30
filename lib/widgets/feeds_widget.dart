@@ -1,8 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_iconly/flutter_iconly.dart';
-import 'package:page_transition/page_transition.dart';
-import 'package:store_api_flutter_course/consts/global_colors.dart';
-import 'package:store_api_flutter_course/screens/product_details_screen.dart';
+import 'all.dart';
 
 class FeedsWidget extends StatelessWidget {
   const FeedsWidget({super.key});
@@ -52,17 +48,6 @@ class FeedsWidget extends StatelessWidget {
               onTap: () => Navigator.push(context, PageTransition(type: PageTransitionType.fade, child: const ProductDetails())),
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(8),
-                // child: FancyShimmerImage(
-                //   errorWidget: Icon(
-                //     IconlyBold.danger,
-                //     color: Colors.red,
-                //     size: 28,
-                //   ),
-                //   height: size.height * 0.2,
-                //   width: double.infinity,
-                //   imageUrl: 'https://www.shutterstock.com/image-vector/amazon-internet-media-icon-website-600w-2200304477.jpg',
-                //   boxFit: BoxFit.fill,
-                // ),
                 child: SizedBox(
                   child: Image.network(
                     'https://m.media-amazon.com/images/I/716jHHW1IPL._UL1500_.jpg',

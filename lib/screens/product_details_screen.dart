@@ -27,7 +27,7 @@ class ProductDetails extends StatelessWidget {
                     padding: EdgeInsets.all(8.0),
                     child: Text(
                       'Category',
-                      style: TextStyle(fontSize: 18),
+                      style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.black),
                     ),
                   ),
                   const SizedBox(
@@ -39,14 +39,12 @@ class ProductDetails extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         const Flexible(
-                          flex: 3,
                           child: Text(
-                            'Lorem Ipsum',
-                            style: TextStyle(fontSize: 18),
+                            'Nike Air Max 270 React',
+                            style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.black),
                           ),
                         ),
                         Flexible(
-                          flex: 1,
                           child: RichText(
                             text: TextSpan(
                               text: '\$',
@@ -89,7 +87,7 @@ class ProductDetails extends StatelessWidget {
                     padding: EdgeInsets.all(8.0),
                     child: Text(
                       'Description',
-                      style: TextStyle(fontSize: 18),
+                      style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.black),
                     ),
                   ),
                   const SizedBox(
@@ -98,9 +96,9 @@ class ProductDetails extends StatelessWidget {
                   const Padding(
                     padding: EdgeInsets.all(8.0),
                     child: Text(
-                      'Lorem ipsum hfhffhhfhffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh',
-                      textAlign: TextAlign.center,
-                      style: TextStyle(fontSize: 30),
+                      'Nike Air Max is a line of shoes produced by Nike, Inc., with the first model released in 1987. Air Max shoes are identified by their midsoles incorporating flexible urethane pouches filled with pressurized gas, visible from the exterior of the shoe and intended to provide cushioning to the underfoot.',
+                      textAlign: TextAlign.start,
+                      style: TextStyle(fontSize: 20),
                     ),
                   ),
                 ],

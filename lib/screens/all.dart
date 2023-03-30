@@ -7,3 +7,5 @@ export 'package:store_api_flutter_course/screens/feeds_screen.dart';
 export 'package:store_api_flutter_course/widgets/feeds_widget.dart';
 export 'package:store_api_flutter_course/widgets/sale_widget.dart';
 export '../widgets/app_bar_icons.dart';
+export '../widgets/category_widget.dart';
+export 'categories_screen.dart';

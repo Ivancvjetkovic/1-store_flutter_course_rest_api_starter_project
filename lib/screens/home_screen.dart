@@ -1,5 +1,6 @@
+import 'package:store_api_flutter_course/screens/users_screen.dart';
+
 import 'all.dart';
-import 'categories_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -46,7 +47,15 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
           actions: [
             AppBarIcons(
-              function: () {},
+              function: () {
+                Navigator.push(
+                  context,
+                  PageTransition(
+                    type: PageTransitionType.fade,
+                    child: const UsersScreen(),
+                  ),
+                );
+              },
               icon: IconlyBold.user3,
             )
           ],

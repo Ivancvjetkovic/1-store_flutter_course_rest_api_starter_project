@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'all.dart';
 
 class SaleWidget extends StatelessWidget {
   const SaleWidget({super.key});
@@ -7,7 +7,6 @@ class SaleWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
     return Flexible(
-      flex: 2,
       child: Padding(
         padding: const EdgeInsets.all(14.0),
         child: Container(
